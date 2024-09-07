@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#C8A1E0 ;
+    
+    padding: 10px 20px;
+    .brand{
+        display: flex;
+        align-items: center;
+         img{
+            width: 90px;
+        }
+    }
+}
+.title{
+    margin-left: 40px;
+    font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navitem{
+    display: flex;
+    list-style: none;
+    margin: 30px;
+    gap: 30px;
+    li{
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+            color:aliceblue ;
+            text-decoration: underline;
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+    }
+}
+body{
+    background-color: #F7EFE5;
+    margin: 0;
+    color:#F7EFE5 ;
+}
+.card-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid: top 20px;
+}
+.card {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+  }
+  .info{
+    color: black;
+    justify-content: center;
+    display: flex;
+  }
+  .bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

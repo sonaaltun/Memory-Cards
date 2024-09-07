@@ -1,0 +1,91 @@
+.card {
+    background-color: #E2BFD9;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    margin: 20px;
+    img {
+      width: 100px;
+    }
+    transition: transform 0.5s; /* Add transition effect */
+    transform-style: preserve-3d; /* Add 3D transform effect */
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg); /* Flip the card */
+  }
+  
+  .card-back {
+    transform: rotateY(180deg); /* Flip the back of the card */
+  }
+  
+  .group {
+    background-color: #C8A1E0;
+    width: 1000px;
+    height: auto; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 40px auto;
+    border: 1px solid black;
+    padding: 20px; 
+    @media (max-width: 1200px) {
+      width: 90%; /* Daha küçük ekranlarda genişliği artır */
+    }
+    @media (max-width: 768px) {
+      width: 100%; /* Mobil ekranlarda tam genişlik */
+      padding: 10px; /* İçerik boşluğunu küçült */
+    }
+  }
+  
+  .scoreboard {
+    position: fixed;
+    top: 20px; /* Üstten mesafe */
+    right: 20px; /* Sağdan mesafe */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 10; /* Diğer içeriklerin üstünde ama yüksek değil */
+  
+    h1, h2 {
+      margin: 0;
+      padding: 0;
+    }
+  
+    h1 {
+      font-size: 24px;
+      color: #333;
+    }
+  
+    h2 {
+      font-size: 18px; 
+      color: #666;
+    }
+  }
+  
+  .newgame {
+    margin: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+  }
+  
+  // Medya sorguları ekleyerek responsive tasarımı destekleyin
+  @media (max-width: 768px) {
+    .scoreboard {
+      width: 90%; /* Küçük ekranlarda genişliği artır */
+      top: 10px; /* Üstten mesafeyi küçült */
+      right: 10px; /* Sağdan mesafeyi küçült */
+      padding: 10px; /* İçerik boşluğunu küçült */
+    }
+  }
+  
+ 
