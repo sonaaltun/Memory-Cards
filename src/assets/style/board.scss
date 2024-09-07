@@ -10,16 +10,16 @@
     img {
       width: 100px;
     }
-    transition: transform 0.5s; /* Add transition effect */
-    transform-style: preserve-3d; /* Add 3D transform effect */
+    transition: transform 0.5s; 
+    transform-style: preserve-3d;
   }
   
   .card.flipped {
-    transform: rotateY(180deg); /* Flip the card */
+    transform: rotateY(180deg); 
   }
   
   .card-back {
-    transform: rotateY(180deg); /* Flip the back of the card */
+    transform: rotateY(180deg); 
   }
   
   .group {
@@ -33,25 +33,25 @@
     border: 1px solid black;
     padding: 20px; 
     @media (max-width: 1200px) {
-      width: 90%; /* Daha küçük ekranlarda genişliği artır */
+      width: 90%;
     }
     @media (max-width: 768px) {
-      width: 100%; /* Mobil ekranlarda tam genişlik */
-      padding: 10px; /* İçerik boşluğunu küçült */
+      width: 100%; 
+      padding: 10px; 
     }
   }
   
   .scoreboard {
     position: fixed;
-    top: 20px; /* Üstten mesafe */
-    right: 20px; /* Sağdan mesafe */
+    top: 20px; 
+    right: 20px; 
     background-color: rgba(255, 255, 255, 0.8); 
     border: 2px solid #ccc; 
     border-radius: 10px; 
     padding: 15px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    z-index: 10; /* Diğer içeriklerin üstünde ama yüksek değil */
+    z-index: 10;
   
     h1, h2 {
       margin: 0;
@@ -78,13 +78,13 @@
     text-align: center;
   }
   
-  // Medya sorguları ekleyerek responsive tasarımı destekleyin
+
   @media (max-width: 768px) {
     .scoreboard {
-      width: 90%; /* Küçük ekranlarda genişliği artır */
-      top: 10px; /* Üstten mesafeyi küçült */
-      right: 10px; /* Sağdan mesafeyi küçült */
-      padding: 10px; /* İçerik boşluğunu küçült */
+      width: 90%; 
+      top: 10px; 
+      right: 10px; 
+      padding: 10px; 
     }
   }
   
