@@ -1,6 +1,6 @@
 # 🎮 **GummyGame** 🕹️
 
-**GumyGame**, hafızanızı test edebileceğiniz eğlenceli bir eşleştirme oyunudur. Renkli ve sevimli hayvan kartlarıyla dolu bu oyun, her yaştan insan için keyifli bir deneyim sunar. Hadi kartları eşleştirip, en yüksek puanı yapmaya çalışın!
+**Memory Card Game**, hafızanızı test edebileceğiniz eğlenceli bir eşleştirme oyunudur. Renkli ve sevimli hayvan kartlarıyla dolu bu oyun, her yaştan insan için keyifli bir deneyim sunar. Hadi kartları eşleştirip, en yüksek puanı yapmaya çalışın!
 
 ## 🚀 **Nasıl Oynanır?**
 
