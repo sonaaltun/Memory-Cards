@@ -50,12 +50,12 @@ const Board = () => {
 
   useEffect(() => {
     if (gameStarted) {
-      shuffleCards(); // Kartları karıştır
+      shuffleCards();
       startTimer();
     }
 
     return () => {
-      clearInterval(timer); // Timer'ı temizle
+      clearInterval(timer); 
     };
   }, [gameStarted]);
 
@@ -102,7 +102,7 @@ const Board = () => {
     const newCards = [...cardImages];
     const card = newCards.find((card) => card.id === id);
 
-    if (flippedCards.length === 2) return; // İki kart seçiliyse başka kart seçilmesin
+    if (flippedCards.length === 2) return; 
 
     card.flipped = true;
     setFlippedCards([...flippedCards, card]);
@@ -115,9 +115,8 @@ const Board = () => {
         // Kartlar eşleşiyorsa açık kalsın
         firstCard.matched = true;
         card.matched = true;
-        setScore(score + 10); // Puanı artır (her doğru eşleşmede +10)
+        setScore(score + 10);
       } else {
-        // Kartlar eşleşmezse 1 saniye sonra kapansın
         setTimeout(() => {
           firstCard.flipped = false;
           card.flipped = false;
