@@ -12,15 +12,16 @@
 
 - ⏳ **Zamana Karşı Yarış**: 60 saniye içinde en fazla kartı eşleştirmeye çalış.
 - 🎨 **Sevimli Tasarımlar**: Tatlı hayvan figürleriyle göz ziyafeti sunar.
-- 🎯 **Puan Sistemi**: Her başarılı eşleşmede +10 puan kazan!
-
-## 📷 **Ekran Görüntüleri**
-
-![GumyGame Screenshot](https://via.placeholder.com/600x400)  
-_Bir oyundan keyifli anlar!_
+- 🎯 **Puan Sistemi**: Her başarılı eşleşmede +10 puan kazanın.
 
 ## 🛠️ **Kurulum**
 
 ### 1. Bu projeyi klonlayın
 ```bash
 git clone https://github.com/kullaniciAdin/gumygame.git
+npm install
+npm start
+
+##.
+
+🎉 İyi eğlenceler!
